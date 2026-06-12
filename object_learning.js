@@ -8,3 +8,8 @@ const user = {
 console.log(user.age);
 
 console.log(user.isMale)
+
+console.log(typeof(user));
+
+console.log(Object.entries(user));
+
