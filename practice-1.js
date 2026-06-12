@@ -3,6 +3,10 @@
 // let y = 20
 // const z = 50
 
+const isFemale = false;
+console.log(isFemale);
+
+
 // console.log(x);
 // console.log(z);
 
@@ -32,5 +36,13 @@ function addition(a, b){
     return a + b;
 }
 console.log(`Result: ${addition(30, 40)}`);
+
+const calculation = (c, d) => {
+    return c * d;
+}
+
+let result = calculation(15, 25);
+console.log(`Ans = ${result}`);
+
 
 
